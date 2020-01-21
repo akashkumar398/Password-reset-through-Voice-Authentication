@@ -150,7 +150,7 @@ def recognize():
                         print ("Please enter your new password " + str(name))
                         password = input("Enter password:")
                         file1 = open("reset_pwd.txt","a")#append mode 
-                        file1.write(password) 
+                        file1.write(password + "\n") 
                         file1.close()
                         print ("Password reset done" + str(name))
                         #my_df = pd.DataFrame(eval(password))

@@ -1,0 +1,9 @@
+tensorflow
+keras
+numpy
+pyaudio
+wave
+scipy
+opencv-python
+scikit-learn==0.19.2
+python_speech_features
